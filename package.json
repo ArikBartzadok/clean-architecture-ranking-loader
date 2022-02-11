@@ -4,6 +4,8 @@
   "description": "Example API made with Rest and GraphQL using Clean Architecture",
   "main": "index.js",
   "scripts": {
+    "start": "node dist/main/server.js",
+    "build": "rimraf dist && tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
